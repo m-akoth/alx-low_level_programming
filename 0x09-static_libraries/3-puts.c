@@ -2,16 +2,16 @@
 
 /**
  * _puts - Prints a string
- * @str: String to be printed
+ * @s: String to be printed
  * Return: Always 0
  */
 
-void _puts(char *str)
+void _puts(char *s)
 
 {
-	for (; *str != '\0'; str++)
+	for (; *s != '\0'; s++)
 	{
-	_putchar(*str);
+	_putchar(*s);
 	}
 	_putchar('\n');
 }
